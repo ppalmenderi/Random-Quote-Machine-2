@@ -1,0 +1,88 @@
+* {
+    transition: all 0.5s ease-in-out;
+
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: 3px solid red;
+    border-radius: 3px;
+    position: relative;
+    margin:8% auto auto auto;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+}
+.card-header {
+    border: 3px solid orange;
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 2em;
+}
+.buttons {
+    border: 3px solid purple;
+    width: 450px;
+
+    margin: auto;
+    display: block;
+}
+    .button {
+        /*border: 3px solid black;*/
+        height: 38px;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        background-color: blue;
+        outline: none;
+        font-size: 0.85em;
+        padding: 8px 18px 6px 18px;
+        margin-top: 30px;
+        opacity: 1;
+        cursor: pointer;
+    }
+
+#twitter, #tumbler {
+    float: left;
+    padding: 0px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 5px;
+    height: 30px;
+    width: 40px;
+}
+#newQuote {
+    float: right;
+}
+
+.card-body {
+    border: 3px solid yellow
+}
+
+.quote-text {
+    border: 3px solid green;
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 1.75em;
+}
+
+.author-text {
+    border: 3px solid blue;
+    width: 450px;
+    height: auto;
+    clear: both;
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: right;
+}
